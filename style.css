@@ -45,11 +45,14 @@
     text-decoration: none;
     color: rgb(75, 38, 38);
     font-size: 25px;
+    text-align: center;
+  
    
 }
 .font-center1{
     text-align: center;
     margin: 100px;
+    
  
 }
  
@@ -97,8 +100,8 @@ input[type="checkbox" ]{
     
 }
 
-.input-taka{
-    width: 450px;
+  .input-taka{
+    width: 480px;
     padding: 30px;
     background: #fff;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
@@ -125,4 +128,40 @@ input[type="checkbox" ]{
     text-align: center;
     
     
+}
+
+.anchore-center1{
+    padding: 15px 25px;
+   background-color: orangered;
+    color: rgb(113, 220, 13);
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(75, 38, 38);
+    font-size: 25px;
+    
+    margin: 150px;
+    
+    
+}
+.donete-plan{
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.icon{
+    padding: 25px;
+    text-align: left;
+    border-radius: 5px;
+    margin: 10px;
+   
+}
+#icon1{
+    background-color: bisque;
+}
+#icon2{
+    background-color: rgb(177, 111, 31);
+}
+#icon3{
+    background-color: rgb(53, 212, 17);
 }
