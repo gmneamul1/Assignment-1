@@ -143,12 +143,12 @@ input[type="checkbox" ]{
 
 .donete-plan{
             display: flex;
-            margin-left: 120px;
-            margin-right: 120px;
+            margin-left: 100px;
+            margin-right: 100px;
 }
 
 .icon{
-    padding: 42px;
+    padding: 32px;
     text-align: left;
     border-radius: 5px;
     margin: 10px;
