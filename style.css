@@ -176,16 +176,19 @@ input[type="checkbox" ]{
 .need-donete{
             text-align: center;
             border: 5px solid rgb(164, 209, 248);
-            margin: 02px;
+            margin: 01px;
             border-radius: 10px;
             background-color: rgb(195, 225, 251);
+            
 }
 
 .need-help{
-    display: flex;  
+    display: flex; 
+    margin-right: 5px;
+     
 }
 .need-help img{
-            width:380px;
+            width:370px;
             border-radius: 16px;  
 }
 .help{
@@ -213,6 +216,7 @@ input[type="checkbox" ]{
     padding: 10px;
     margin: 10px;
     border-radius: 50px;
+    
 }
 /*****************************************************************************/
 
