@@ -1,38 +1,29 @@
+/*****************************************************************************/
 *{
     padding: 0;
     margin: 0;
-     
-
 }
-
+/*****************************************************************************/
 .first-section{
-   
-    background-image: url(donete1.png);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-    padding: 180px 20px;
-    text-align: center;
-    
-    
+            background-image: url(donete1.png);
+            background-size: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 180px 20px;
+            text-align: center;
 }
 #page-head{
     font-size: 65px;
     color: rgb(255, 255, 255);
     text-align: center;
     margin-bottom: 20px;
- 
-   
 }
 .page-head{
-    font-size: 45px;
-    color: rgb(10, 10, 10);
-    text-align: center;
-    margin-bottom: 20px;
- 
-   
-}
+            font-size: 45px;
+            color: rgb(10, 10, 10);
+            text-align: center;
+            margin-bottom: 20px;
+            }
 .font-center{
     text-align: center;
     color: rgb(69, 37, 37);
@@ -41,33 +32,27 @@
     margin-right: 100px;
     font-size: 18px;
     font-weight: 800;
-    margin-bottom: 50px;
-    
-}
+    margin-bottom: 50px;}
 .anchore-center{
-    
-   padding: 15px 25px;
-   background-color: orangered;
-    color: rgb(113, 220, 13);
-    border-radius: 5px;
-    text-decoration: none;
-    color: rgb(75, 38, 38);
-    font-size: 25px;
-    text-align: center;
-  
-   
+            padding: 15px 25px;
+            background-color: orangered;
+            color: rgb(113, 220, 13);
+            border-radius: 5px;
+            text-decoration: none;
+            color: rgb(75, 38, 38);
+            font-size: 25px;
+            text-align: center;  
 }
+/*****************************************************************************/
 .font-center1{
     text-align: center;
     margin: 100px;
-    
- 
 }
  
 .money-select{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 }
 .money{
     position: relative;
@@ -81,19 +66,19 @@
     background-color: rgb(5, 47, 47);
 }
 li{
-    position: relative;
-    list-style: none;
-    text-align: center;
-    margin: 15px;
+            position: relative;
+            list-style: none;
+            text-align: center;
+            margin: 15px;
 }
  label{
     position: relative;
     cursor: pointer;
  }
 input[type="checkbox" ]{
-    position: absolute;
-    opacity: 0;
-}
+            position: absolute;
+            opacity: 0;
+        }
 .money{
     width: 90px;
     font-size: 45px;
@@ -104,19 +89,17 @@ input[type="checkbox" ]{
     border-radius: 10px;
     text-align: center;
     border: 2px solid red;
-    
-    
 }
 
   .input-taka{
-    width: 480px;
-    padding: 30px;
-    background: #fff;
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
-    display: block;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 20px;
+            width: 480px;
+            padding: 30px;
+            background: #fff;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 20px;
 
 
 }
@@ -124,37 +107,31 @@ input[type="checkbox" ]{
     height: 40px;
     width: 100%;
     position: relative;
-   
-    
-    
 }
 .input-taka .input-data input{
-    height: 100%;
-    width: 100%;
-    border: none;
-    border-bottom: 2px solid silver ;
-    text-align: center;
-    
-    
+            height: 100%;
+            width: 100%;
+            border: none;
+            border-bottom: 2px solid silver ;
+            text-align: center;
 }
 
 .anchore-center1{
     padding: 15px 25px;
-   background-color: orangered;
+    background-color: orangered;
     color: rgb(113, 220, 13);
     border-radius: 5px;
     text-decoration: none;
     color: rgb(75, 38, 38);
     font-size: 25px;
-    
     margin: 150px;
-    
-    
 }
+/*****************************************************************************/
+
 .donete-plan{
-    display: flex;
-    margin-left: 120px;
-    margin-right: 120px;
+            display: flex;
+            margin-left: 120px;
+            margin-right: 120px;
 }
 
 .icon{
@@ -162,16 +139,17 @@ input[type="checkbox" ]{
     text-align: left;
     border-radius: 5px;
     margin: 10px;
-   
 }
 #icon1{
-    background-color: bisque;
+         background-color: bisque;
 }
 #icon2{
     background-color: rgb(177, 111, 31);
 }
 #icon3{
-    background-color: rgb(53, 212, 17);
+          background-color: rgb(53, 212, 17);
+/*****************************************************************************/
+
 }
  #need-text{
     padding: 25px;
@@ -181,22 +159,21 @@ input[type="checkbox" ]{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     color: #7000fa;
-   
  }
 .need-donete{
-    text-align: center;
-    border: 5px solid rgb(164, 209, 248);
-    margin: 01px;
-    border-radius: 10px;
-    background-color: rgb(195, 225, 251);
+            text-align: center;
+            border: 5px solid rgb(164, 209, 248);
+            margin: 01px;
+            border-radius: 10px;
+            background-color: rgb(195, 225, 251);
 }
 
 .need-help{
     display: flex;  
 }
 .need-help img{
-    width:250px;
-    border-radius: 16px;  
+            width:250px;
+            border-radius: 16px;  
 }
 .help{
     text-align: justify;
@@ -204,18 +181,18 @@ input[type="checkbox" ]{
     margin-top: 10px;
 }
 #flood{
-    background-color: aqua;
-    font-weight: 900;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 50px;
+            background-color: aqua;
+            font-weight: 900;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 50px;
 }
 #hungry{
-    background-color: rgb(223, 249, 205);
-    font-weight: 900;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 50px;
+            background-color: rgb(223, 249, 205);
+            font-weight: 900;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 50px;
 }
 #education{
     background-color: rgb(251, 134, 134);
@@ -224,13 +201,13 @@ input[type="checkbox" ]{
     margin: 10px;
     border-radius: 50px;
 }
+/*****************************************************************************/
 
 .subscribe{
-    text-align: center;
-    padding: 50px;
-    margin: 30px 200px;
-    background-color: antiquewhite;
-   
+            text-align: center;
+            padding: 50px;
+            margin: 30px 200px;
+            background-color: antiquewhite;
 }
 .sub{
     background-color: red;
@@ -243,20 +220,19 @@ input[type="checkbox" ]{
 }
 
 .button {
-    background-color: #ff0000; /* Green */
-    border: none;
-    color: white;
-    padding: 14.5px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin-left: -19px;
-    border-top-right-radius:  4px;
-    border-bottom-right-radius: 4px;
-    
-    cursor: pointer;
+            background-color: #ff0000; /* Green */
+            border: none;
+            color: white;
+            padding: 14.5px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin-left: -19px;
+            border-top-right-radius:  4px;
+            border-bottom-right-radius: 4px;
+            cursor: pointer;
   }
-  
+  /*****************************************************************************/
   footer{
     text-align: center;
     padding: 50px ;
@@ -265,3 +241,4 @@ input[type="checkbox" ]{
     color: #ff0000;
 
   }
+  /*****************************************************************************/
